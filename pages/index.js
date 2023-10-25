@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
             <Link href="/profile/a/b/c">Profile</Link>
           </li>
           <li className={utilStyles.listItem}>
-            <Link href="http://localhost:3000/api/hello">API</Link>
+            <Link href="/api/hello">API</Link>
           </li>
         </div>
       </section>
