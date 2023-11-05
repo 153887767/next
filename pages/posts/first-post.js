@@ -8,12 +8,13 @@ export default function FirstPost() {
     <Layout>
       <Head>
         <title>First Post</title>
+        <script src="https://www.googletagmanager.com/gtag/js?id=123" />
       </Head>
       <Script
-        src="https://connect.facebook.net/en_US/sdk.js"
+        src="https://www.googletagmanager.com/gtag/js?id=456"
         strategy="lazyOnload"
         onLoad={() =>
-          console.log(`script loaded correctly, window.FB has been populated`)
+          console.log(`script loaded correctly`)
         }
       />
       <h1>First Post</h1>
